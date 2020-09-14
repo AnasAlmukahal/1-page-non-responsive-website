@@ -1,0 +1,156 @@
+.demobox {
+    background-color: rgb(202, 45, 45);
+    width: 100%;
+    padding: 4px;
+    height: 515px;
+    left: 0%;
+    right: 0%;
+}
+
+#textinred {
+    position: absolute;
+    margin-left: 45%;
+    top: 30%;
+    font-weight: lighter;
+    font-size: 250%;
+    text-shadow: black;
+}
+
+.demobox2 {
+    position: absolute;
+    width: 12%;
+    height: 2%;
+    padding: 10x;
+    background-color: rgb(248, 93, 36);
+    margin-left: 44%;
+    top: 40%;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+@keyframes move {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 12%;
+    }
+}
+
+#disc {
+    position: absolute;
+    margin-left: 43%;
+    top: 42%;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(253, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-color: orangered;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+#button {
+    position: absolute;
+    top: 55%;
+    margin-left: 45.7%;
+    background-color: rgb(0, 0, 0);
+    width: 10%;
+    height: 5%;
+    color: white;
+    border-color: black;
+    letter-spacing: 0.0977cm;
+    text-shadow: black;
+    font-size: 92%;
+}
+
+#control {
+    position: absolute;
+    right: 10%;
+    top: 80%;
+}
+
+#topiccontrol {
+    font-weight: normal;
+    font-size: 250%;
+}
+
+#controltext {
+    font-size: 125%;
+}
+
+.demobox3 {
+    position: absolute;
+    top: 125%;
+    background-color: #e4dedeb4;
+    padding: 200px;
+    right: 0%;
+    padding-left: 100%;
+    padding-right: 100%;
+}
+
+#ping {
+    position: absolute;
+    width: 10%;
+    top: 135%;
+    left: 20%;
+}
+
+#pingtext {
+    position: absolute;
+    top: 135%;
+    font-size: 135%;
+    left: 35%;
+}
+
+#pingtopic {
+    position: absolute;
+    top: 123%;
+    left: 35%;
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+#facebook {
+    width: 3.5%;
+    position: absolute;
+    top: 190%;
+    left: 50%;
+}
+
+#instagram {
+    width: 3.5%;
+    position: absolute;
+    top: 190%;
+    left: 54%;
+}
+
+#twitter {
+    width: 7%;
+    position: absolute;
+    top: 187%;
+    left: 56.5%;
+}
